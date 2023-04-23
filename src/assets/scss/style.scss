@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './variables.scss';
+
+body {
+  background: #f7f7f7;
+  font-family: $appFamily;
+  line-height: 15px;
+}
+
+.bg-gradient-1 {
+  background: rgb(142, 195, 32);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(142, 195, 32, 1) 35%,
+    rgba(21, 160, 211, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(142, 195, 32, 1) 35%,
+    rgba(21, 160, 211, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(142, 195, 32, 1) 35%,
+    rgba(21, 160, 211, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8ec320", endColorstr="#15a0d3", GradientType=1);
+}
